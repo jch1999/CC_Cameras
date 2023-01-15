@@ -15,11 +15,11 @@ E:/UnityProject/CC_Cameras
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62654
+54484
 Successfully changed project path to: E:/UnityProject/CC_Cameras
 E:/UnityProject/CC_Cameras
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 68.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 68.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path E:/ProgramFiles/Unity/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,93 +35,93 @@ Initialize mono
 Mono path[0] = 'E:/ProgramFiles/Unity/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'E:/ProgramFiles/Unity/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/ProgramFiles/Unity/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/ProgramFiles/Unity/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/ProgramFiles/Unity/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000970 seconds.
+Registered in 0.001066 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 74.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 74.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.553 seconds
+- Completed reload, in  0.558 seconds
 Domain Reload Profiling:
-	ReloadAssembly (553ms)
-		BeginReloadAssembly (52ms)
+	ReloadAssembly (558ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (444ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (446ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (138ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (189ms)
+			SetupLoadedEditorAssemblies (192ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (75ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003147 seconds.
+Registered in 0.002240 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\UnityProject\CC_Cameras\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 76.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 76.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.230 seconds
+- Completed reload, in  1.231 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1231ms)
-		BeginReloadAssembly (146ms)
+	ReloadAssembly (1232ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1029ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1051ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
+			SetupTypeCache (344ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (419ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (427ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (233ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (244ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3889 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.8 MB.
-System memory in use after: 174.1 MB.
+System memory in use before: 174.5 MB.
+System memory in use after: 174.7 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4339.
-Total: 3.668000 ms (FindLiveObjects: 0.278000 ms CreateObjectMapping: 0.208400 ms MarkObjects: 3.073700 ms  DeleteObjects: 0.106600 ms)
+Total: 3.213400 ms (FindLiveObjects: 0.247400 ms CreateObjectMapping: 0.169700 ms MarkObjects: 2.689900 ms  DeleteObjects: 0.105500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,61 +135,109 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/CreativeCore_Camera/Scenes
-  artifactKey: Guid(d12e6ad65eae547deabab4be3006db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CreativeCore_Camera/Scenes using Guid(d12e6ad65eae547deabab4be3006db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70350c12079d8a4c8e528092d13343db') in 0.008803 seconds 
+  path: Assets/Breathing Idle.fbx
+  artifactKey: Guid(a15c302730f16034b8e9c5f89e203bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breathing Idle.fbx using Guid(a15c302730f16034b8e9c5f89e203bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa1b04d9b730e1332f71dfaef13fbc3') in 0.053232 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.150002 seconds.
-  path: Assets/CreativeCore_Camera/Scenes/MyChallengeScene.unity
-  artifactKey: Guid(f8e0da29e81ac8742a1e5ce807abc5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CreativeCore_Camera/Scenes/MyChallengeScene.unity using Guid(f8e0da29e81ac8742a1e5ce807abc5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95279ed14abe188b1949f5ae52587e14') in 0.005669 seconds 
+  Time since last request: 53.928419 seconds.
+  path: Assets/Swat.fbx
+  artifactKey: Guid(ffdae6c0c17f9c0428f964095ec89a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat.fbx using Guid(ffdae6c0c17f9c0428f964095ec89a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cd340109471cd382a30f1733a9bf62') in 0.212056 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 594.265627 seconds.
-  path: Assets/POLYGON city pack/Prefabs
-  artifactKey: Guid(55c50c4d813fe7140a42d24d27cfa7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Prefabs using Guid(55c50c4d813fe7140a42d24d27cfa7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f47d3b7d94590cbf43e3c421059c8b') in 0.006814 seconds 
+  Time since last request: 211.127340 seconds.
+  path: Assets/CreativeCore_Camera/StarterAssets/ThirdPersonController/Character/Models/Armature.fbx
+  artifactKey: Guid(36078ab0369161e49a29d349ae3e0739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Camera/StarterAssets/ThirdPersonController/Character/Models/Armature.fbx using Guid(36078ab0369161e49a29d349ae3e0739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783d704054b7c7b30eeacd3e57a70bca') in 0.104287 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.943575 seconds.
-  path: Assets/POLYGON city pack/Prefabs/Buildings
-  artifactKey: Guid(a56c14f3d9b631d4d8914c91cc3d33f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Prefabs/Buildings using Guid(a56c14f3d9b631d4d8914c91cc3d33f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba6ef00b52d03105b35668cb5c021ad') in 0.006552 seconds 
+  Time since last request: 0.000302 seconds.
+  path: Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/TRACKER Rear Rim 000_n.fbx
+  artifactKey: Guid(a77def5275a1ef24cb6a276ba76259f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/TRACKER Rear Rim 000_n.fbx using Guid(a77def5275a1ef24cb6a276ba76259f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b45b527a8b7418375605df0ea062220') in 0.121893 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.370472 seconds.
-  path: Assets/POLYGON city pack/Prefabs/Letters
-  artifactKey: Guid(b774ec948cc018445a76a0cef6fb39ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Prefabs/Letters using Guid(b774ec948cc018445a76a0cef6fb39ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abcef413c4f3b61cd69d590566f1cbf') in 0.006150 seconds 
+  Time since last request: 0.000234 seconds.
+  path: Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/MUTT Front Brakes 000_n.fbx
+  artifactKey: Guid(243750417dcf1834f8e51efb233c7b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/MUTT Front Brakes 000_n.fbx using Guid(243750417dcf1834f8e51efb233c7b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a858c9fab41bc3e6dee9376f8a82b6fe') in 0.080543 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.757050 seconds.
-  path: Assets/POLYGON city pack/Prefabs/Letters/Letter_A_Prefab.prefab
-  artifactKey: Guid(486263a6295235a40a3ba56b8111437e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Prefabs/Letters/Letter_A_Prefab.prefab using Guid(486263a6295235a40a3ba56b8111437e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7695a6494e8eea7f216d4e0053815134') in 0.599463 seconds 
+  Time since last request: 0.000287 seconds.
+  path: Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/MUTT Rear Brakes 000_n.fbx
+  artifactKey: Guid(cc9f68da66d29554fb84b61613454a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/MUTT Rear Brakes 000_n.fbx using Guid(cc9f68da66d29554fb84b61613454a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29520137429fd009bbf63522e257d99') in 0.063112 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.177160 seconds.
-  path: Assets/POLYGON city pack/Materials
-  artifactKey: Guid(25a3e4884eb11774bbce8c47423058ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Materials using Guid(25a3e4884eb11774bbce8c47423058ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f820c9fa4fd929218c1771d39347e38') in 0.005352 seconds 
+  Time since last request: 0.000282 seconds.
+  path: Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/BOBBER Steering 000_o.fbx
+  artifactKey: Guid(a559ec8a3d89cec4bacf0cb5333b4c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/BOBBER Steering 000_o.fbx using Guid(a559ec8a3d89cec4bacf0cb5333b4c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9c5f6f94d077daf86ccc53d19d8c49') in 0.061296 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.501565 seconds.
-  path: Assets/POLYGON city pack/Materials/traffic light
-  artifactKey: Guid(41f9aa48694499448963af270f170e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Materials/traffic light using Guid(41f9aa48694499448963af270f170e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fbc4505e204b05f7cf4a89612a17c8') in 0.005785 seconds 
+  Time since last request: 0.000299 seconds.
+  path: Assets/UnityTechnologies/SpaceRobotKyle/Models/Robot Kyle.fbx
+  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/SpaceRobotKyle/Models/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946a654466d34ed22c96c4d80bf2f89f') in 0.041148 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 64.710207 seconds.
-  path: Assets/POLYGON city pack/Prefabs/Floor/Sideway 2 prefab.prefab
-  artifactKey: Guid(9cb5b35ecfd548b4d87e1c513764ef5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Prefabs/Floor/Sideway 2 prefab.prefab using Guid(9cb5b35ecfd548b4d87e1c513764ef5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8075edc01419b2ee424d577c4e1e2d18') in 0.014292 seconds 
+  Time since last request: 0.000361 seconds.
+  path: Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/Stand Up 000_o.fbx
+  artifactKey: Guid(50827aeb39d8fec4ba23ed44eb3ef23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/Stand Up 000_o.fbx using Guid(50827aeb39d8fec4ba23ed44eb3ef23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec2cebbe9dd29339ef905f428ac37fe') in 0.069521 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.756838 seconds.
-  path: Assets/POLYGON city pack/Prefabs/Floor/Sideway 1 prefab.prefab
-  artifactKey: Guid(ff7206cbdafefa144bb8ac229bf9046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Prefabs/Floor/Sideway 1 prefab.prefab using Guid(ff7206cbdafefa144bb8ac229bf9046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0ba3dc78f0d7b442fbe1608eb12ff3') in 0.013616 seconds 
+  Time since last request: 0.000284 seconds.
+  path: Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/Stand Down 000_o.fbx
+  artifactKey: Guid(42ae0b4229268ee418cd7478f67c8b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/Stand Down 000_o.fbx using Guid(42ae0b4229268ee418cd7478f67c8b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49c0e57e35d8b989f03df6c8199522a') in 0.061227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/BOBBER Front Rim 000_o.fbx
+  artifactKey: Guid(f159fe548be0fb3459b442efcfa64dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/BOBBER Front Rim 000_o.fbx using Guid(f159fe548be0fb3459b442efcfa64dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd418a0d567bd2452cdfc0475a4b4db15') in 0.055328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/CLASSIC Front Tyre 000_n.fbx
+  artifactKey: Guid(3b5549c538f5d3c46b3469be8573a374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/CLASSIC Front Tyre 000_n.fbx using Guid(3b5549c538f5d3c46b3469be8573a374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708cc4ac8fd2a153a902bee980e618dc') in 0.064074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/CLASSIC Rear Tyre 000_n.fbx
+  artifactKey: Guid(1bfa5dca39ceec64684d6b9c36e02b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArtisticMechanics/Brat/Meshes/Singles/000 Position/CLASSIC Rear Tyre 000_n.fbx using Guid(1bfa5dca39ceec64684d6b9c36e02b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b62f918da9a76e42c312ffbce3f979') in 0.094134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Dynamic_power_pole_cable.fbx
+  artifactKey: Guid(db2ce2858abe7e2439337f36cb4c5fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Dynamic_power_pole_cable.fbx using Guid(db2ce2858abe7e2439337f36cb4c5fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb50893d7701e50db4bc78f6487ae982') in 0.124521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.964435 seconds.
+  path: Assets/Breathing Idle.fbx
+  artifactKey: Guid(a15c302730f16034b8e9c5f89e203bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breathing Idle.fbx using Guid(a15c302730f16034b8e9c5f89e203bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb393e13214a9d34314d189f7c6c48c') in 0.009049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.653833 seconds.
+  path: Assets/Breathing Idle.fbx
+  artifactKey: Guid(a15c302730f16034b8e9c5f89e203bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breathing Idle.fbx using Guid(a15c302730f16034b8e9c5f89e203bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9912bbb29efaf1f59bf1142d68b2e214') in 0.008795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.851890 seconds.
+  path: Assets/Breathing Idle.fbx
+  artifactKey: Guid(a15c302730f16034b8e9c5f89e203bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Breathing Idle.fbx using Guid(a15c302730f16034b8e9c5f89e203bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cc4d7731fa22a7049b4dcec119654e') in 0.008149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.638363 seconds.
+  path: Assets/Swat.fbx
+  artifactKey: Guid(ffdae6c0c17f9c0428f964095ec89a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Swat.fbx using Guid(ffdae6c0c17f9c0428f964095ec89a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86436e59da296062494c48a042b6bdba') in 0.031912 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
